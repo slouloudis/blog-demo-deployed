@@ -3,6 +3,7 @@ import {getPosts} from '@/lib/posts'
 
 export default function Page() {
     const posts = getPosts()
+    console.log(posts)
 
     return (
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
